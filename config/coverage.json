@@ -1,5 +1,6 @@
 {
   "express": {
-    "port": 3000
+    "port": 8443,
+    "https": true
   }
 }
