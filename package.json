@@ -1,5 +1,5 @@
 {
-  "name": "node-practice",
+  "name": "node-template",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -11,6 +11,9 @@
     "winston": "~0.7.2"
   },
   "devDependencies": {
-    "supertest": "~0.8.2"
+    "supertest": "~0.8.2",
+    "grunt": "~0.4.2",
+    "grunt-cafe-mocha": "~0.1.10",
+    "grunt-env": "~0.4.0"
   }
 }
