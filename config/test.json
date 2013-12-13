@@ -1,7 +1,11 @@
 {
   "express": {
     "port": 8443,
-    "https": true
+    "isHttps": true,
+    "host": "localhost",
+    "session": {
+      "secret": "keyboard cat"
+    }
   },
   "logger" : {
     "filename": "logs/run.log",

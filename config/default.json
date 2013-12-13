@@ -1,5 +1,13 @@
 {
   "application": {
     "name": "node-template"
+  },
+  "auth": {
+    "loginUrl": "/login",
+    "logoutUrl": "/logout",
+    "google": {
+      "url": "/auth/google",
+      "returnUrl": "/auth/google/return"
+    }
   }
 }
